@@ -94,7 +94,7 @@ This chart also defines a custom PodSecurityPolicy which can be used to finely c
          ```
      2. Create the cluster role in your cluster.
          ```
-         kubectl apply -f custerrole.yaml
+         kubectl apply -f clusterrole.yaml
          ```
 
   4. Create a role binding for your pod security policy to scope this policy to the namespace that you created earlier.
